@@ -1,0 +1,117 @@
+/* task4.css */
+
+body {
+    background-color: #04111e;
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 4.5rem; /* Adjust for fixed header */
+}
+
+.navbar {
+    background-color: #0c0f12;
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link.nav-hover:hover {
+    color: #ffc107;
+}
+
+header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+/* task4.css */
+
+/* Existing styles... */
+
+.about-text {
+    color: white;
+}
+#about h1, #education h2 {
+    color: white;
+  }
+  
+  .text-body-emphasis {
+    color: white;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+#home {
+    background: linear-gradient(to bottom right, #e21313, #d81e0d);
+    color: white;
+    padding-top: 8rem;
+}
+
+#home h1 {
+    font-size: 3.5rem;
+}
+
+#home p {
+    font-size: 1.5rem;
+}
+
+#home a {
+    color: rgb(255, 255, 255);
+}
+
+#home img {
+    border: 5px solid #ffffff;
+}
+
+#education .education {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#education .education:hover {
+    transform: translateY(-10px);
+}
+
+#skills {
+    background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+}
+
+#skills i {
+    font-size: 4rem;
+    margin: 1rem;
+    transition: transform 0.3s, color 0.3s;
+}
+
+#skills i:hover {
+    color: #695687;
+    transform: scale(1.2);
+}
+
+#contact {
+    background-color: #f8f9fa;
+}
+
+#contact form .form-control {
+    border-radius: 0;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+footer .nav-link {
+    color: #868e96;
+    transition: color 0.3s;
+}
+
+footer .nav-link:hover {
+    color: #ffffff;
+}
